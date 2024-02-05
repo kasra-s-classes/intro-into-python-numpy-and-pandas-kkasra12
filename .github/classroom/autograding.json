@@ -1,13 +1,13 @@
 {
   "tests": [
     {
-      "name": "main test",
-      "setup": "sudo -H pip3 install pytest numpy pandas",
-      "run": "pytest -v",
+      "name": "main_grade",
+      "setup": "sudo -H pip3 install pytest pandas numpy",
+      "run": "pytest",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 60,
+      "timeout": 10,
       "points": null
     }
   ]
