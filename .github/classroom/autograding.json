@@ -3,7 +3,7 @@
     {
       "name": "main_grade",
       "setup": "sudo -H pip3 install pytest pandas numpy",
-      "run": "pytest",
+      "run": "python3 question_test.py",
       "input": "",
       "output": "",
       "comparison": "exact",
