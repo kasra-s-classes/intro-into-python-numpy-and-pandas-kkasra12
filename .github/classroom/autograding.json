@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "main test",
-      "setup": "sudo -H pip3 install pytest numpy",
+      "setup": "sudo -H pip3 install pytest numpy pandas",
       "run": "pytest -v",
       "input": "",
       "output": "",
